@@ -7,4 +7,8 @@ type Anime struct {
 
 	NumEpisodes int
 	Duration    int
+	Trailer     Trailer
+
+	//NextAiringEpisode: The anime's next episode airing schedule
+	NextAiringEpisode AiringSchedule
 }
