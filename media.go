@@ -106,12 +106,12 @@ type Media struct {
 	//Trends: The media's daily trend stats
 	Trends []*Trend
 
-	//Reviews: User reviews of the media
-	Reviews []*Review
-
 	//Recommendations: User recommendations for similar media
 	Recommendations Recommendation
 
 	//Stats: The media's stats
 	Stats Stats
+
+	//Keywords: The search keys to find the media
+	Keywords []string
 }

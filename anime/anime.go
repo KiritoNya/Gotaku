@@ -7,7 +7,10 @@ type Anime struct {
 
 	NumEpisodes int
 	Duration    int
-	Trailer     Trailer
+	Trailers    []*Trailer
+
+	//Keywords: The search keys to find the anime
+	Keywords []string
 
 	//NextAiringEpisode: The anime's next episode airing schedule
 	NextAiringEpisode AiringSchedule

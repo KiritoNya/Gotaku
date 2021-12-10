@@ -1,7 +1,5 @@
 package gotaku
 
-import "KiritoNya/gotaku/user"
-
 //Recommendation - Media recommendation
 type Recommendation struct {
 	//Id: The id of the recommendation
@@ -16,6 +14,6 @@ type Recommendation struct {
 	//MediaRaccomendationId: The id of the recommended media
 	MediaRaccomendationId int
 
-	//User: The user that first created the recommendation
-	User user.User
+	//UserId: The user id that first created the recommendation
+	UserId string
 }

@@ -7,6 +7,9 @@ type Video struct {
 	//Url: The url of the video
 	Url string
 
+	//Site: Server that is hosting the video
+	Site string
+
 	//Languages: The languages contained in the video
 	Languages []string
 
