@@ -1,6 +1,9 @@
-package gotaku
+package review
 
-import "time"
+import (
+	"KiritoNya/gotaku"
+	"time"
+)
 
 //Review - A Review that features in an anime or manga
 type Review struct {
@@ -17,7 +20,7 @@ type Review struct {
 	MediaId string
 
 	//MediaType: For which type of media the review is for
-	MediaType MediaType
+	MediaType gotaku.MediaType
 
 	//Summary: A short summary of the review
 	Summary string
