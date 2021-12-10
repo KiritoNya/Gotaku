@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+//Media - Anime or Manga
 type Media struct {
 	//Id: The id of the media
 	Id string
