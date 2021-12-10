@@ -16,5 +16,5 @@ type Anime struct {
 	Keywords []string
 
 	//NextAiringEpisode: The anime's next episode airing schedule
-	NextAiringEpisode aiiring.AiringSchedule
+	NextAiringEpisode aiiring.Schedule
 }
