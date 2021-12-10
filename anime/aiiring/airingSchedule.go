@@ -1,9 +1,12 @@
-package anime
+package aiiring
 
-import "time"
+import (
+	"KiritoNya/gotaku/anime"
+	"time"
+)
 
-//AiringSchedule - Anime Airing Schedule.
-type AiringSchedule struct {
+//Schedule - Anime airing schedule.
+type Schedule struct {
 	//Id: The id of the airing schedule item
 	Id int
 
@@ -11,7 +14,7 @@ type AiringSchedule struct {
 	AiringAt time.Time
 
 	//Episode: The airing episode number
-	Episode *Episode
+	Episode *anime.Episode
 
 	//MediaId: The associate media id of the airing episode
 	MediaId string

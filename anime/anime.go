@@ -1,6 +1,9 @@
 package anime
 
-import "KiritoNya/gotaku"
+import (
+	"KiritoNya/gotaku"
+	"KiritoNya/gotaku/anime/aiiring"
+)
 
 type Anime struct {
 	gotaku.Media
@@ -13,5 +16,5 @@ type Anime struct {
 	Keywords []string
 
 	//NextAiringEpisode: The anime's next episode airing schedule
-	NextAiringEpisode AiringSchedule
+	NextAiringEpisode aiiring.AiringSchedule
 }
