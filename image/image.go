@@ -26,7 +26,7 @@ type Image struct {
 	Format string
 }
 
-//GetData is a function that get image data
+//GetData is a function that get image data.
 func (i *Image) GetData(client *http.Client) error {
 	//Check url
 	if i.Url == "" {
