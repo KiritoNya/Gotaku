@@ -1,6 +1,6 @@
 package anime
 
-import "KiritoNya/gotaku/language"
+import "github.com/KiritoNya/gotaku/language"
 
 //Episode - The struct describe the episode info
 type Episode struct {

@@ -1,6 +1,6 @@
 package stats
 
-import "KiritoNya/gotaku"
+import "github.com/KiritoNya/gotaku"
 
 //Genre - Struct that describes the stat by genre
 type Genre struct {

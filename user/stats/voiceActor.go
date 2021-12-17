@@ -1,6 +1,6 @@
 package stats
 
-import "KiritoNya/gotaku"
+import "github.com/KiritoNya/gotaku"
 
 //VoiceActor - Struct that describes the stats by voice actors
 type VoiceActor struct {

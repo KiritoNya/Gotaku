@@ -1,6 +1,6 @@
 package activity
 
-import "KiritoNya/gotaku/social/message"
+import "github.com/KiritoNya/gotaku/social/message"
 
 //MessageActivity - User message activity
 type MessageActivity struct {

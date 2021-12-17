@@ -1,6 +1,6 @@
 package manga
 
-import "KiritoNya/gotaku"
+import "github.com/KiritoNya/gotaku"
 
 //Manga - Struct that describes the manga info
 type Manga struct {

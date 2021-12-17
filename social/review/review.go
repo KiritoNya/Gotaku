@@ -1,7 +1,7 @@
 package review
 
 import (
-	"KiritoNya/gotaku"
+	"github.com/KiritoNya/gotaku"
 	"time"
 )
 

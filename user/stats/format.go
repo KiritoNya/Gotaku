@@ -1,6 +1,6 @@
 package stats
 
-import "KiritoNya/gotaku"
+import "github.com/KiritoNya/gotaku"
 
 type Format struct {
 	stat

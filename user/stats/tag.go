@@ -1,6 +1,6 @@
 package stats
 
-import "KiritoNya/gotaku"
+import "github.com/KiritoNya/gotaku"
 
 //Tag - Struct that describes the stat by tag
 type Tag struct {

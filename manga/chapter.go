@@ -1,7 +1,7 @@
 package manga
 
 import (
-	"KiritoNya/gotaku"
+	"github.com/KiritoNya/gotaku"
 	"time"
 )
 

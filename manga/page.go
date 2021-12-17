@@ -1,6 +1,6 @@
 package manga
 
-import "KiritoNya/gotaku/image"
+import "github.com/KiritoNya/gotaku/image"
 
 //Page - Struct that describes the page info
 type Page struct {

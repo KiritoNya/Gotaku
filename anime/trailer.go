@@ -1,7 +1,7 @@
 package anime
 
 import (
-	"KiritoNya/gotaku/image"
+	"github.com/KiritoNya/gotaku/image"
 )
 
 //Trailer is a struct that describes the trailer infos

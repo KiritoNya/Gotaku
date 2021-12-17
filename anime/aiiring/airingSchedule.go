@@ -1,7 +1,7 @@
 package aiiring
 
 import (
-	"KiritoNya/gotaku/anime"
+	"github.com/KiritoNya/gotaku/anime"
 	"time"
 )
 

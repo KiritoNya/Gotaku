@@ -1,6 +1,6 @@
 package stats
 
-import "KiritoNya/gotaku"
+import "github.com/KiritoNya/gotaku"
 
 //Status - Struct that describe the status stats
 type Status struct {

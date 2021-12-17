@@ -1,7 +1,7 @@
 package gotaku
 
 import (
-	"KiritoNya/gotaku/image"
+	"github.com/KiritoNya/gotaku/image"
 	"time"
 )
 
