@@ -1,3 +1,3 @@
-module KiritoNya/gotaku/anime
+module github.com/KiritoNya/gotaku/anime
 
 go 1.17
