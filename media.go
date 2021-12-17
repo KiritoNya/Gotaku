@@ -14,7 +14,7 @@ type Media struct {
 	Url string
 
 	//Title: The official titles of the media in various languages
-	Title *Title
+	Title Title
 
 	//Description: Short description of the media's story and characters
 	Description string
