@@ -76,7 +76,7 @@ func (i *Image) GetFormat() error {
 	return nil
 }
 
-//Save is a function that save the image in a file
+//Save is a function that save the image in a file.
 func (i *Image) Save(dirPath string) error {
 	//Check image data
 	if i.Data == nil {
