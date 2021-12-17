@@ -7,6 +7,9 @@ type Title struct {
 	//Native: Japanese title
 	Native string
 
+	//Romaji: Japanese title written in romaji
+	Romaji string
+
 	//Pretty: Selected/others language title.
 	Pretty string
 }
