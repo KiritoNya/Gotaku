@@ -59,7 +59,7 @@ func (i *Image) GetName() error {
 	return nil
 }
 
-//GetFormat is a function that get the image format
+//GetFormat is a function that get the image format.
 func (i *Image) GetFormat() error {
 	if i.Name == "" {
 		err := i.GetName()
