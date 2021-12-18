@@ -49,6 +49,9 @@ type Staff struct {
 	//BloodType: The persons blood type
 	BloodType string
 
+	//Role: The staff role
+	Role string
+
 	//StaffMedia: Media where the staff member has a production role
 	StaffMedia []Media
 
