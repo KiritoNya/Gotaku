@@ -46,7 +46,7 @@ type Staff struct {
 	//HomeTown: The persons birthplace or hometown
 	HomeTown string
 
-	//BloodType: The persons blood type
+	//BloodType: The persons blood type.
 	BloodType string
 
 	//Role: The staff role
