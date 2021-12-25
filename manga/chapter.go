@@ -13,6 +13,9 @@ type Chapter struct {
 	//Url: The chapter url
 	Url string
 
+	//Type: The chapter type (EX: Extra, Oneshot)
+	Type string
+
 	//Number: The chapter number
 	Number int
 
