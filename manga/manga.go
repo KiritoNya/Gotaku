@@ -12,7 +12,7 @@ type Manga struct {
 	//NumVolumes: The number of volumes
 	NumVolumes int
 
-	//Volumes: List of manga's volumes
+	//Volumes: List of manga's volumes.
 	Volumes []*Volume
 
 	//Fansub: The fansub who translated the manga.
