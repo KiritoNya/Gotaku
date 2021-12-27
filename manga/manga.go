@@ -6,7 +6,7 @@ import "github.com/KiritoNya/gotaku"
 type Manga struct {
 	gotaku.Media
 
-	//NumChapters: The number of chapters
+	//NumChapters: The number of chapters.
 	NumChapters int
 
 	//NumVolumes: The number of volumes.
