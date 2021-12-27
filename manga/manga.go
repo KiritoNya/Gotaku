@@ -9,7 +9,7 @@ type Manga struct {
 	//NumChapters: The number of chapters
 	NumChapters int
 
-	//NumVolumes: The number of volumes
+	//NumVolumes: The number of volumes.
 	NumVolumes int
 
 	//Volumes: List of manga's volumes.
