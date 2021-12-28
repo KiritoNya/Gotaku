@@ -7,5 +7,5 @@ type Page struct {
 	Id     string
 	Number int
 	Url    string
-	Image  image.Image
+	Image  *image.Image
 }
