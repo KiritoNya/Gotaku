@@ -32,7 +32,4 @@ type Chapter struct {
 
 	//ReleaseDate is the date of release of the chapter.
 	ReleaseDate time.Time
-
-	//Keywords: The search keys to find the chapter
-	Keywords []string
 }
